@@ -21,7 +21,7 @@ WMHuffman.js is a fork from [zlib.js](https://github.com/imaya/zlib.js)
 ```js
 <script src="lib/WMHuffman.js"></script>
 <script>
-var source = new Uint8Array(1,2,3);
+var source = new Uint8Array([1,2,3]);
 var result = WMHuffman.buildTable(source);
 </script>
 ```
